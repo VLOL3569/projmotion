@@ -11,8 +11,9 @@ screen = pygame.display.set_mode([screenX, screenY])
 mConv = 50
 
 ballElevation = -(2 * mConv)
-vx = 3 * mConv
-vy = -(3 * mConv)
+vx = 5 * mConv
+vy = -(10 * mConv)
+g = 9.8 * mConv
 
 
 ballX = 125
@@ -22,10 +23,8 @@ diy = ballY
 rate = 60
 dt = 1/rate
 #pixels per second (1m = 50)
-vx = 3*50
-vy = -(10 *50)
 #-y -> up
-g = 9.8*50
+
 text_font = pygame.font.SysFont("Arial", 25)
 
 traildots = {}
