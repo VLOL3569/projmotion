@@ -2,17 +2,15 @@
 
 A projectile motion simulator built with pygame that visualizes the physics of projectile motion in real-time.
 
-- **Interactive Visualization**: 
   - Blue ball representing the projectile
   - Trail dots showing the path
   - Grid (each grid represents one real life metre) overlay for reference
   - Real-time display of physics parameters
-- **Physics Parameters Display**:
-  - Displacement (dx) in meters
-  - Velocity (v) in m/s
-  - Launch angle (θ) in degrees
-  - Time elapsed (dt) in seconds
-- **Interactive Trail Navigation**: Click on any trail dot to replay the motion from that point
+    - Displacement (dx) in meters
+    - Velocity (v) in m/s
+    - Launch angle (θ) in degrees
+    - Time elapsed (dt) in seconds
+Click on any trail dot to replay the motion from that point
 
 ## Requirements
 
