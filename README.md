@@ -2,13 +2,10 @@
 
 A projectile motion simulator built with pygame that visualizes the physics of projectile motion in real-time.
 
-## Features
-
-- **Real-time Physics Simulation**: Simulates projectile motion with gravity, velocity, and trajectory
 - **Interactive Visualization**: 
   - Blue ball representing the projectile
   - Trail dots showing the path
-  - Grid overlay for reference
+  - Grid (each grid represents one real life metre) overlay for reference
   - Real-time display of physics parameters
 - **Physics Parameters Display**:
   - Displacement (dx) in meters
@@ -50,6 +47,8 @@ The simulator uses realistic physics with:
 - Gravity: 9.8 m/s²
 - Scale: 1 meter = 50 pixels
 - Frame rate: 60 FPS
+
+These parameters can be easily adjusted in main.py.
 
 ## Project Structure
 
