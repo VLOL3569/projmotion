@@ -10,6 +10,7 @@ A projectile motion simulator built with pygame that visualizes the physics of p
     - Velocity (v) in m/s
     - Launch angle (θ) in degrees
     - Time elapsed (dt) in seconds
+
 Click on any trail dot to replay the motion from that point
 
 ## Requirements
